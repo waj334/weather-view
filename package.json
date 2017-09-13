@@ -1,0 +1,29 @@
+{
+  "name": "weather-view",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "dark-sky-api": "^0.6.21",
+    "fetch": "^1.1.0",
+    "fetch-jsonp": "^1.1.3",
+    "fs": "0.0.1-security",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13",
+    "request": "^2.81.0",
+    "semantic-ui-react": "^0.73.0",
+    "webpack": "^3.5.6",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "devDependencies": {
+    "semantic-ui": "^2.2.13"
+  }
+}
