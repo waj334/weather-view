@@ -29,9 +29,9 @@ class App extends Component {
         <Grid.Column>
         </Grid.Column>
 
-        <Grid.Column>
+        <Grid.Column centered>
           <Header size='huge' as='h1' textAlign='center' style={{'font-size':'13em'}}>{today.temp}</Header>
-          <Grid columns='2'>
+          <Grid columns='2' style={{width: '350px'}}>
             <Grid.Column>
               <Container textAlign='left'>
                 <Header centered style={{'font-size':'3em'}}>
